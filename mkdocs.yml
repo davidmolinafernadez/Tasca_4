@@ -1,0 +1,39 @@
+# Nom del lloc
+site_name: Web estàtica amb mkdocs
+
+# Carpeta amb el documents fot
+docs_dir: 'md'
+
+# Carpeta on es generarà el lloc web (mkdocs build)
+site_dir: 'docs'
+
+# Adreça on s'executa el server local (mkdocs serve)
+dev_addr: localhost:4000
+
+
+nav:
+    - Home: index.md
+    - Tema1: 
+      - Apartat 1: apartat1.md
+      - Apartat 2: apartat2.md
+      - Apartat 3: apartat3.md
+      - Apartat 4: apartat4.md
+      - Apartat 5: apartat5.md
+      - Apartat 6: apartat6.md
+     
+    - About: about.md
+
+
+# Tema a triar
+theme: material
+
+  
+
+
+markdown_extensions:
+  - admonition
+
+
+# Altres afegits
+plugins:
+  - search      # plugin del quadre cerca
